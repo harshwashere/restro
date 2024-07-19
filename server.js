@@ -12,7 +12,7 @@ const connectDb = require("./utils/db");
 connectDb();
 
 const corsOptions = {
-  origin: "http://localhost:5173",
+  origin: "https://gardengrillrestaurant.netlify.app",
   method: "GET, POST, PUT, DELETE, PATCH, HEAD",
   credential: true,
 };
